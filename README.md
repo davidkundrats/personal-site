@@ -1,2 +1,2 @@
 # personal-site
-a website to show case my skills and projects
+a website to showcase my skills and projects
