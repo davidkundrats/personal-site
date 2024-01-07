@@ -1,24 +1,29 @@
 {% load static %}
-<!--- 
-
 <link href="{% static 'css/main.css' %}" rel="stylesheet" type="text/css" />
+<!-- 
 <img src="{% static 'images/dave.JPG' %}" alt="Selfie" />
 <img src="{% static 'images/github.png' %}" alt="GitHub" />
 <img src="{% static 'images/linkedin.png' %}" alt="LinkedIn" />
+<h3> 
+    Hello
+</h3>
 -->
 
 <!DOCTYPE html>
 <html>
   <head>
+    <title>David Kundrats</title>
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
-    <title>David Kundrats</title>
+    <link href="{% static 'css/main.css' %}" rel="stylesheet" type="text/css" />
   </head>
-  <body>
+
+  <body class =".bg-warning">
+    <br />
     <div class="container">
       <div class="row">
         <div class="col-md-3">
@@ -28,7 +33,7 @@
           <div class="card card-body"></div>
         </div>
       </div>
-
+      <br />
       <div class="row">
         <div class="col-md-6">
           <div class="card card-body"></div>
@@ -37,7 +42,7 @@
           <div class="card card-body"></div>
         </div>
       </div>
-
+      <br />
       <div class="row">
         <div class="col-md-6">
           <div class="card card-body"></div>
@@ -46,6 +51,7 @@
           <div class="card card-body"></div>
         </div>
       </div>
+      <br />
     </div>
   </body>
 </html>
