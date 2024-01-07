@@ -22,15 +22,66 @@
     <link href="{% static 'css/main.css' %}" rel="stylesheet" type="text/css" />
   </head>
 
-  <body class =".bg-warning">
+  <body class=".bg-warning">
     <br />
     <div class="container">
       <div class="row">
         <div class="col-md-3">
-          <div class="card card-body"></div>
+          <div class="card card-body" id="profile-wrapper">
+            <img
+              src="{% static 'images/dave.JPG' %}"
+              id="profile-pic"
+              alt="Selfie"
+            />
+            <hr />
+            <h4>Hi, I'm David</h4>
+            <p>I love deep learning research and coding in Python</p>
+          </div>
         </div>
         <div class="col-md-9">
-          <div class="card card-body"></div>
+          <div class="card card-body">
+            <h4>My First Job in Tech</h4>
+            <hr />
+            <p>
+              I began working as an IT intern in early 2023 to help bring a
+              mid-sized CPA firm modernize thier tech stack. Their software
+              enviornment was disjointed, and they were assigning repetitive,
+              time consuming tasks to interns that took up to 25 working hours
+              to complete.
+            </p>
+            <p>
+              By the end of the year, with my expertise, the firm connected
+              together 2 separate software enviornments through an API, and I
+              automated a data pipeline so that their invoice software easily
+              connected to their database system.
+            </p>
+            <ul class="social-links">
+              <li>
+                <a href="https://github.com/davidkundrats"
+                  ><img
+                    src="{% static 'images/github.png' %}"
+                    class="social"
+                    alt="Github"
+                /></a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/david-kundrats/"
+                  ><img
+                    src="{% static 'images/linkedin1.png' %}"
+                    class="social"
+                    alt="LinkedIn"
+                /></a>
+              </li>
+              <li>
+                <a href="mailto:s1030408@monmouth.edu"
+                  ><img
+                    src="{% static 'images/email.png' %}"
+                    class="social"
+                    alt="Email"
+                /></a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
       <br />
