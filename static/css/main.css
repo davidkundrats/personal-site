@@ -1,9 +1,11 @@
 body { 
-    background-color: #F8f8f8 !important; 
+    background-color: #F8F8F8 !important; 
 }
+
 #profile-wrapper { 
     text-align: center;
 }
+
 #profile-pic { 
     width: 150px; 
     height: 150px; 
@@ -11,17 +13,34 @@ body {
     margin-left: auto; 
     margin-right: auto; 
 }
-ul { 
+
+ul, li { 
     padding: 0; 
     list-style-type: none;
 }
 
-social-links ul, li{ 
+
+.social-links ul, .social-links li { 
     list-style-type: none;
     display: inline-block; 
 }
 
-.social{ 
+
+.social { 
     width: 30px; 
     height: 30px; 
 }
+
+.bullet ul, .bullet li { 
+    margin-left: 20px;
+    list-style-type: disc;
+}
+
+.row-equal-height {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    height: 100%; 
+} 
